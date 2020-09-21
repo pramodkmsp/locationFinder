@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'zipcodechecker'`, () => {
+  it(`should have errorResponse 'Please enter valid a zipcode'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('zipcodechecker');
+    expect(app.errorResponse).toEqual('Please enter valid a zipcode');
   });
 
   it('should render title', () => {

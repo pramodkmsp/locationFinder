@@ -1,0 +1,36 @@
+.jumbotron {
+    p {
+        color: #3c5fd1;
+    }
+}
+
+.container {
+    background-color: #fefefe;
+    border: 3px solid #78b995;
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 500px;
+
+    .cross-icon {
+        float: right;
+        margin-right: 5px;
+    }
+
+    h3 {
+        padding-left: 20px;
+        padding-bottom: 5px;
+        background-color: #78b995;
+        color: #fefefe;
+    }
+    table {
+        padding: 5px 0px;
+        th {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+
+
+}
