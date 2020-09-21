@@ -21,7 +21,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
   ngAfterViewInit() {
     this.elementRef.nativeElement.querySelector('input')
-    .addEventListener('', this.onEnter);
+    .addEventListener('enter', this.onEnter);
   }
 
   onEnter(event) {
